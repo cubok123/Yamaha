@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha Motorcycles - Кошик</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yamaha_logo.svg/1280px-Yamaha_logo.svg.png" alt="Yamaha">
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav__link">Головна</a>
+                    <a href="products.html" class="nav__link">Мотоцикли</a>
+                    <a href="promotions.html" class="nav__link">Акції</a>
+                    <a href="cart.html" class="nav__link active cart-link">Кошик <span class="cart-count">0</span></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="cart">
+        <div class="container">
+            <h1 class="section-title">Ваш кошик</h1>
+            
+            <div class="cart-empty">
+                <p>Ваш кошик порожній</p>
+                <a href="products.html" class="btn">Перейти до каталогу</a>
+            </div>
+            
+            <div class="cart-items">
+                <!-- Тут будуть відображатися товари -->
+            </div>
+            
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Всього товарів:</span>
+                    <span class="total-items">0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Сума замовлення:</span>
+                    <span class="total-price">0 грн</span>
+                </div>
+                <button class="btn checkout-btn">Оформити замовлення</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <h3>Контакти</h3>
+                    <p>м. Київ, вул. Мотоциклетна, 12</p>
+                    <p>+38 (044) 123-45-67</p>
+                    <p>info@yamaha-ukraine.com</p>
+                </div>
+                <div class="footer__col">
+                    <h3>Графік роботи</h3>
+                    <p>Пн-Пт: 9:00 - 18:00</p>
+                    <p>Сб: 10:00 - 15:00</p>
+                    <p>Нд: вихідний</p>
+                </div>
+                <div class="footer__col">
+                    <h3>Соціальні мережі</h3>
+                    <div class="social-links">
+                        <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="images/youtube-icon.png" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Yamaha Motor Ukraine. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

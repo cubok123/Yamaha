@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha Motorcycles - Модельний ряд</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yamaha_logo.svg/1280px-Yamaha_logo.svg.png" alt="Yamaha">
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav__link">Головна</a>
+                    <a href="products.html" class="nav__link active">Мотоцикли</a>
+                    <a href="promotions.html" class="nav__link">Акції</a>
+                    <a href="cart.html" class="nav__link cart-link">Кошик <span class="cart-count">0</span></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="container">
+            <h1 class="section-title">Модельний ряд Yamaha</h1>
+            <div class="filter">
+                <button class="filter-btn active" data-category="all">Всі</button>
+                <button class="filter-btn" data-category="sport">Спорт</button>
+                <button class="filter-btn" data-category="naked">Нейкеди</button>
+                <button class="filter-btn" data-category="touring">Туристичні</button>
+                <button class="filter-btn" data-category="offroad">Позашляховики</button>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-category="sport">
+                    <img src="https://cdn3.riastatic.com/photosnew/auto/photo/yamaha_yzf-r1__600814110fx.jpg" alt="Yamaha YZF-R1" class="product-img">
+                    <h3 class="product-title">Yamaha YZF-R1</h3>
+                    <p class="product-desc">Легендарний спортивний мотоцикл з 998-кубовим 4-циліндровим двигуном</p>
+                    <div class="product-price">650 000 грн</div>
+                    <button class="btn add-to-cart" data-id="1">Купити</button>
+                </div>
+                
+                <div class="product-card" data-category="naked">
+                    <img src="https://cdpcdn.dx1app.com/products/USA/YA/2024/MC/SPORT/MT-09_SP/50/TBD/2000000018.jpg" alt="Yamaha MT-09" class="product-img">
+                    <h3 class="product-title">Yamaha MT-09</h3>
+                    <p class="product-desc">Потужний нейкед з 847-кубовим 3-циліндровим двигуном</p>
+                    <div class="product-price">420 000 грн</div>
+                    <button class="btn add-to-cart" data-id="2">Купити</button>
+                </div>
+                
+                <div class="product-card" data-category="touring">
+                    <img src="https://ridermagazine.com/wp-content/uploads/2021/12/KevinWingPhoto-9898.jpg" alt="Yamaha Tracer 9 GT" class="product-img">
+                    <h3 class="product-title">Yamaha Tracer 9 GT</h3>
+                    <p class="product-desc">Туристичний мотоцикл для довгих подорожей</p>
+                    <div class="product-price">480 000 грн</div>
+                    <button class="btn add-to-cart" data-id="3">Купити</button>
+                </div>
+                
+                <div class="product-card" data-category="offroad">
+                    <img src="https://cdpcdn.dx1app.com/products/USA/YA/2024/MC/DUALPURP/TNR_700/50/SHADOW_GRAY/2000000017.jpg" alt="Yamaha Tenere 700" class="product-img">
+                    <h3 class="product-title">Yamaha Tenere 700</h3>
+                    <p class="product-desc">Позашляховик для пригод та подорожей</p>
+                    <div class="product-price">450 000 грн</div>
+                    <button class="btn add-to-cart" data-id="4">Купити</button>
+                </div>
+                
+                <div class="product-card" data-category="sport">
+                    <img src="https://www.centralfloridapowersports.com/cdn/shop/files/IMG_1798.jpg?v=1736631290" alt="Yamaha YZF-R7" class="product-img">
+                    <h3 class="product-title">Yamaha YZF-R7</h3>
+                    <p class="product-desc">Спортивний мотоцикл середнього класу</p>
+                    <div class="product-price">380 000 грн</div>
+                    <button class="btn add-to-cart" data-id="5">Купити</button>
+                </div>
+                
+                <div class="product-card" data-category="naked">
+                    <img src="https://lh3.googleusercontent.com/proxy/AjRCf4WqWwByfcAStdeQAyvGi6Pii9ZqIXCRG6hfdJEw8lf31QL8sH84uwhUhl8CFrquQ19zBiPyMYw8T-kCmi7t7rfxgCoMSOfGHYRAQbFWZHS-UnxiMAmd_7Z2vxDnBo0bAg2iUOmqHaf8Ub5RDXthcN85" alt="Yamaha MT-07" class="product-img">
+                    <h3 class="product-title">Yamaha MT-07</h3>
+                    <p class="product-desc">Доступний нейкед з ідеальним балансом потужності та керованості</p>
+                    <div class="product-price">320 000 грн</div>
+                    <button class="btn add-to-cart" data-id="6">Купити</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <h3>Контакти</h3>
+                    <p>м. Київ, вул. Мотоциклетна, 12</p>
+                    <p>+38 (044) 123-45-67</p>
+                    <p>info@yamaha-ukraine.com</p>
+                </div>
+                <div class="footer__col">
+                    <h3>Графік роботи</h3>
+                    <p>Пн-Пт: 9:00 - 18:00</p>
+                    <p>Сб: 10:00 - 15:00</p>
+                    <p>Нд: вихідний</p>
+                </div>
+                <div class="footer__col">
+                    <h3>Соціальні мережі</h3>
+                    <div class="social-links">
+                        <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="images/youtube-icon.png" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Yamaha Motor Ukraine. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
